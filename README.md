@@ -3,35 +3,13 @@
 #### 介绍
 在线微博数据可视化，即时采集微博数据，通过不同词云进行展示数据
 
-#### 软件架构
-软件架构说明
+#### 相关说明
+1.  根据明星姓名去爬取该明星的微博言论，并存储到文本文件（项目中不涉及任何数据库存储），程序中也会根据日期进行去重爬取，避免程序重复爬取同一条微博。
+
+2.  采集好的明星微博文本存储到txt文本中，使用stylecloud进行词云生成图片（有六种图形词云，可以在网页端进行切换）
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  教程参考作者博客：https://www.cnblogs.com/chenlove/p/13367153.html
